@@ -1,5 +1,5 @@
 import Home from './Home.jsx';
-import Models from './3d-models.jsx';
+import Models from './models.jsx';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 
