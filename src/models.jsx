@@ -7,13 +7,11 @@ export default function Models() {
     return (
         <>
         <div id='top' className='center'>
-            {/* <div className='oogabooga'> */}
                 <Header/>
                 <Navbar/>
                 <ModelNav/>
                 <ModelContent/>
                 <Footer/>
-            {/* </div> */}
         </div>
         </>
     )

@@ -9,7 +9,7 @@ function ModelNav(){
                 <li><Link to="me" smooth={true} duration={400} >Me!!!!</Link></li>
                 <li><Link to="starr" smooth={true} duration={400}>Starr</Link></li>
                 <li><Link to="nova" smooth={true} duration={400}>Nova</Link></li>
-                <li><Link to="mrhappy" smooth={true} duration={400}>Mr. Happy</Link></li>
+                <li><Link to="mrhappy" smooth={true} duration={400}>Mr. <br />Happy</Link></li>
             </ul>
         </nav>
     );

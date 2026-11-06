@@ -428,7 +428,7 @@ nav.home-nav > a {
 
 nav.model-nav {
   position: fixed;
-  left: 150px;
+  left: 125px;
   z-index: 0;
 }
 
@@ -442,7 +442,7 @@ nav.model-nav > ul > li {
 
 nav.model-nav > ul > li a{
   display: block;
-  width: 130px;
+  width: 150px;
   list-style-type: none;
   border: 3.2px solid #ac0050;
   border-radius: 10px;
