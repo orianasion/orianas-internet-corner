@@ -1,3 +1,5 @@
+import vid from "./assets/ART/18(1).mp4"
+
 import * as React from "react";
 
 import Lightbox from "yet-another-react-lightbox";
@@ -36,7 +38,10 @@ function ArtContent(){
                     open={index >= 0}
                     close={() => setIndex(-1)}
                 />
+                
             </div>
+            <div className="video-box"><video controls src={vid} width={512}></video></div>
+            
             
         </div>
     );

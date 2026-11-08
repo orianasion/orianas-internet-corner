@@ -672,6 +672,17 @@ div.photo-album {
   padding: 1em;
 }
 
+div.video-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+}
+
+/* video {
+  
+} */
+
 img.eg-photo {
   /* height: 250px; */
   margin-bottom: 14px;
