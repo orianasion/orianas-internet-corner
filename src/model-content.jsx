@@ -18,6 +18,7 @@ import nova3 from './assets/nova3.png'
 import nova4 from './assets/nova4.png'
 import nova5 from './assets/nova5.png'
 import nova6 from './assets/nova6.png'
+import vid from './assets/SCUBA.mp4'
 
 import mrhappy1 from './assets/mr happy1.png'
 import mrhappy2 from './assets/mr happy2.png'
@@ -25,6 +26,13 @@ import mrhappy3 from './assets/mr happy3.png'
 import mrhappy4 from './assets/mr happy4.png'
 import mrhappy5 from './assets/mr happy5.png'
 import mrhappy6 from './assets/mr happy6.png'
+
+import objects1 from './assets/objects1.png'
+import objects2 from './assets/objects2.png'
+import objects3 from './assets/objects3.png'
+import objects4 from './assets/objects4.png'
+import objects5 from './assets/objects5.png'
+import objects6 from './assets/objects6.png'
 
 function ModelContent(){
     return(
@@ -71,6 +79,7 @@ function ModelContent(){
                 <img className='eg-photo' src={nova5}></img>
                 <img className='eg-photo' src={nova6}></img>
             </div>
+            <div className="video-box"><video controls src={vid} width={512}></video></div>
             <div className='text-box'>
             <p>Nova!! The other half of the main duo in my upcoming fighting game. Also made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
             <ul>
@@ -90,6 +99,23 @@ function ModelContent(){
 
             <div className='text-box'>
             <p>Mr Happy! The third character in my upcoming fighting game. Also made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
+            <ul>
+                <li>Poly count: 8628</li>
+            </ul>
+            </div>
+
+            <h1 id='mrhappy'>Shade of Magic</h1>
+            <div className='display-photos'>
+                <img className='eg-photo' src={objects1}></img>
+                <img className='eg-photo' src={objects2}></img>
+                <img className='eg-photo' src={objects3}></img>
+                <img className='eg-photo' src={objects4}></img>
+                <img className='eg-photo' src={objects5}></img>
+                <img className='eg-photo' src={objects6}></img>
+            </div>
+
+            <div className='text-box'>
+            <p>3D assets made for shade of magic! </p>
             <ul>
                 <li>Poly count: 8628</li>
             </ul>

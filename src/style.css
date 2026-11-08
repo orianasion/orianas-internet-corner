@@ -492,11 +492,14 @@ main {
 }
 
 .text-box {
-  display: inline-block;
+  display: block;
   margin: 0 1.35em;
   padding: 1em;
-  border: var(--border);
-  border-radius: var(--round-borders);
+  /* border: var(--border); */
+  /* border-radius: var(--round-borders); */
+  border: solid 5px #fb5d9c;
+  border-radius: 20px;
+  background-color: #ff8ab9;
 }
 
 div > ul {

@@ -10,7 +10,7 @@ function MMDContent() {
       <div className="display">
         <h1>MMD animatics :D</h1>
         <div className='text-box'>
-          <p>For the uninitiated, MMD, or MikuMikuDance is an animation software released in 2008, originally produced for the japanese Vocaloid Hatsune Miku. 
+          <p><span style={{ fontSize: "1.4em", fontWeight: "bold", display: "inline"}}>For the uninitiated,</span> MMD, or MikuMikuDance is an animation software released in 2008, originally produced for the japanese Vocaloid Hatsune Miku. 
               It was intended for vocaloid users to be able to create music videos and other animations for their vocaloids, but has since expanded and now all 
               sorts of 3D models can be imported and animated in MMD. Some video game companies have even released their official 3D models as pmx files for fans all over 
               the world to use and create animatics with in MMD!</p>

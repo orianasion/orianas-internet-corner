@@ -33,6 +33,9 @@ import FishGame4 from './assets/FISH GAME/4.png';
 import FishGame5 from './assets/FISH GAME/5.png';
 import FishGame6 from './assets/FISH GAME/6.png';
 
+import itch from "./assets/itch.png"
+import github from "./assets/github.gif"
+
 // import * as React from "react";
 
 // import Lightbox from "yet-another-react-lightbox";
@@ -56,10 +59,8 @@ function VideoGamesContent(){
             <div className='text-box'>
                 <p>A mysterious shadow fairy is stuck in your room! Move the objects around and manipulate the shadows to create a path to help her escape. A twist on the classic platformer genre.</p>
                 <p>Made for GameDev McGill's October-November monthly jam with two other teammates. I created all of the furniture in 3D using Blender, and I also programmed the camera movement and the win condition, and integrated the fairy's walk, idle and jump animations that were created by my teammate.</p>
-                    <ul>
-                        <li><a href="https://orianas.itch.io/shade-of-magic" target="_blank">Itch.io</a></li>
-                        <li><a href="https://github.com/orianasion/Monthly-Jam" target="_blank">Github</a></li>
-                    </ul>
+                <a href="https://orianas.itch.io/shade-of-magic" target="_blank"><img src={itch} height={50}></img></a>
+                <a href="https://github.com/orianasion/Monthly-Jam" target="_blank"><img src={github} height={50}></img></a>
             </div>
 
             <h1 id='collectTheCosmos'>Collect The Cosmos</h1>
@@ -74,10 +75,8 @@ function VideoGamesContent(){
             <div className='text-box'>
                 <p>You are the sun, and you have 100 million years to create your solar system! That may seem like a lot of time, but time flies fast for a massive sphere of hot plasma. Collect as many planets, asteroids and other fun space objects as you can before the timer runs out!</p>
                 <p>Made in 48hrs for Cosmic Jam 2026 in a team of three people. I contributed to creating 2D sprites and animations for the collectible objects. I programmed random asteroid spawning logic, target pursuit and collision-triggered destruction sequences for the collectibles.</p>
-                    <ul>
-                        <li><a href="https://mooncat225.itch.io/collect-the-cosmos" target="_blank">Itch.io</a></li>
-                        <li><a href="https://github.com/Akutana/CosmicJam" target="_blank">Github</a></li>
-                    </ul>
+                <a href="https://mooncat225.itch.io/collect-the-cosmos" target="_blank"><img src={itch} height={50}></img></a>
+                <a href="https://github.com/Akutana/CosmicJam" target="_blank"><img src={github} height={50}></img></a>
             </div>
             <h1 id='dinerTime'>Diner Time!</h1>
             <div className='display-photos'>
@@ -92,10 +91,8 @@ function VideoGamesContent(){
                 <p>A detective murder mystery where you relive the same day over and over until you can find the killer of your head chef.</p>
                 <p>Made in 48hrs for Creative Jam 2026 with a team of 6 people. I created all of the 2D character sprites for the game, as well as the 2D main menu title card and UI buttons. 
                     I implemented the interactive character dialogue as well as design and button functionality for the main menu.</p>
-                    <ul>
-                        <li><a href="https://mooncat225.itch.io/diner-time" target="_blank">Itch.io</a></li>
-                        <li><a href="https://github.com/Akutana/CreativeJam2026" target="_blank">Github</a></li>
-                    </ul>
+                <a href="https://mooncat225.itch.io/diner-time" target="_blank"><img src={itch} height={50}></img></a>
+                <a href="https://github.com/Akutana/CreativeJam2026" target="_blank"><img src={github} height={50}></img></a>
             </div>
 
             <h1 id='snipeUrType'>Snipe Ur Type</h1>
@@ -110,10 +107,8 @@ function VideoGamesContent(){
             <div className='text-box'>
                 <p>A deductive shooter game where you play as cupid to find uour client's ideal soulmate. Meet wacky characters with interesting criteria for their potential lovers and try to find the perfect one for them.</p>
                 <p>Made in 48hrs for McGameJam 2026 with a team of 7 people. I created most of the game's 2D assets, with the help of one other artist.</p>
-                    <ul>
-                        <li><a href="https://booknoodle.itch.io/snipe-ur-type" target="_blank">Itch.io</a></li>
-                        <li><a href="https://github.com/WillyHB/snipe-ur-type" target="_blank">Github</a></li>
-                    </ul>
+                <a href="https://booknoodle.itch.io/snipe-ur-type" target="_blank"><img src={itch} height={50}></img></a>
+                <a href="https://github.com/WillyHB/snipe-ur-type" target="_blank"><img src={github} height={50}></img></a>
             </div>
             <h1 id='fishGame'>A Fish Game</h1>
             <div className='display-photos'>
@@ -127,10 +122,8 @@ function VideoGamesContent(){
             <div className='text-box'>
                 <p>A 2D story rich adventure game based off of the myth of sedna. Dive into the deep sea and uncover her hidden story as you look across the sea floor for her severed fingers.</p>
                 <p>Made for GDM Studios 2026, a student game development showcase by GameDev McGill — McGill University's game development society, where we won Best Theme Integration for the theme "Into the Unknown". I did all of the 2d assets as well as the cover art and cutscenes. I also made and implemented the 2D bone animations of the main character, enemies, and final boss.</p>
-                    <ul>
-                        <li><a href="https://o1loly.itch.io/abyssal-dive" target="_blank">Itch.io</a></li>
-                        <li><a href="https://github.com/ol1oly/GDM-team7" target="_blank">Github</a></li>
-                    </ul>
+                <a href="https://o1loly.itch.io/abyssal-dive" target="_blank"><img src={itch} height={50}></img></a>
+                <a href="https://github.com/ol1oly/GDM-team7" target="_blank"><img src={github} height={50}></img></a>
             </div>
         </div>
     );

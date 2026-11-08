@@ -1,18 +1,12 @@
 import vid from "./assets/ART/18(1).mp4"
-
+import insta from "./assets/insta.gif"
 import * as React from "react";
-
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
-
 import { art } from "./data.js"
-// const photos = [
-//   { src: SnipeUrType1, width: 800, height: 600 },
-//   { src: SnipeUrType2, width: 1600, height: 900 },
-// ];
+
 
 function ArtContent(){
     const [index, setIndex] = React.useState(-1);
@@ -20,10 +14,8 @@ function ArtContent(){
         <div className="display">
             <h1>Digital Art!</h1>
             <div className='text-box'>
-                <p>A buncha random stuff. Click to enlarge.</p>
-                <ul>
-                    <li><a href="https://www.instagram.com/_orianart/" target="_blank">My Instagram</a></li>
-                </ul>
+                <p>A buncha random stuff. Click to enlarge. Check out my instagram for more!</p>
+                <a href="https://www.instagram.com/_orianart/" target="_blank"><img src={insta} height={50}></img></a>
             </div>
 
             <div className="photo-album">
