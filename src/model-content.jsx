@@ -48,7 +48,8 @@ function ModelContent(){
                     <img className='eg-photo' src={mesona6}></img>
                 </div>
                 <div className='text-box'>
-                    <p>This is a 3D model of myself :DD. No plans of implementing it into a game or anything, just made it for fun (and this website lol). Made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
+                    <p>This is a 3D model of myself :DD. No plans of implementing it into a game or anything, just made it for fun (and this website lol). Made in Blender, fully rigged and textured with hand-drawn textures. 
+                        Rig includes IK constraints on the legs and arms, and damped tracking on the hair. Added a custom toon shader using color ramp and multiply nodes.</p>
                     <ul>
                         <li>Poly count: 3507</li>
                     </ul>
@@ -64,7 +65,7 @@ function ModelContent(){
                 <img className='eg-photo' src={starr6}></img>
             </div>
             <div className='text-box'>
-                <p>This is Starr!! One of the main duo in an upcoming fighting game. Also made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
+                <p>This is Starr!! One of the main duo in an upcoming fighting game. Also made in Blender, fully rigged and textured with hand-drawn textures. Rig features IK bones for the legs and arms and the model uses a custom cartoon shader.</p>
                 <ul>
                     <li>Poly count: 3939</li>
                 </ul>
@@ -81,7 +82,7 @@ function ModelContent(){
             </div>
             <div className="video-box"><video controls src={vid} width={512}></video></div>
             <div className='text-box'>
-            <p>Nova!! The other half of the main duo in my upcoming fighting game. Also made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
+            <p>Nova!! The other half of the main duo in my upcoming fighting game. Also made in Blender. Rig features damped tracking for responsive hair movement annd IK constraints on the arms and legs. Added cartoon shader and a pixelated filter using Blender's compositing nodes for rendering the animation.</p>
             <ul>
                 <li>Poly count: 5002</li>
             </ul>
@@ -98,13 +99,13 @@ function ModelContent(){
             </div>
 
             <div className='text-box'>
-            <p>Mr Happy! The third character in my upcoming fighting game. Also made in blender, with heavy inspirtation from retro/ps1 graphics and a cartoon shader.</p>
+            <p>Mr Happy! The third character in my upcoming fighting game. Also made in blender. The rig features bendy bones for his long limbs to allow for rubber-hose style animations.</p>
             <ul>
                 <li>Poly count: 8628</li>
             </ul>
             </div>
 
-            <h1 id='mrhappy'>Shade of Magic</h1>
+            <h1 id='shadeOfMagic'>Shade of Magic</h1>
             <div className='display-photos'>
                 <img className='eg-photo' src={objects1}></img>
                 <img className='eg-photo' src={objects2}></img>
@@ -115,10 +116,10 @@ function ModelContent(){
             </div>
 
             <div className='text-box'>
-            <p>3D assets made for shade of magic! </p>
-            <ul>
+            <p>3D assets made for shade of magic! These models all have hand-drawn textures, as well as the cartoon shader. </p>
+            {/* <ul>
                 <li>Poly count: 8628</li>
-            </ul>
+            </ul> */}
             </div>
 
         </div>

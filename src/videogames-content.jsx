@@ -123,7 +123,7 @@ function VideoGamesContent(){
                 <p>A 2D story rich adventure game based off of the myth of sedna. Dive into the deep sea and uncover her hidden story as you look across the sea floor for her severed fingers.</p>
                 <p>Made for GDM Studios 2026, a student game development showcase by GameDev McGill — McGill University's game development society, where we won Best Theme Integration for the theme "Into the Unknown". I did all of the 2d assets as well as the cover art and cutscenes. I also made and implemented the 2D bone animations of the main character, enemies, and final boss.</p>
                 <a href="https://o1loly.itch.io/abyssal-dive" target="_blank"><img src={itch} height={50}></img></a>
-                <a href="https://github.com/ol1oly/GDM-team7" target="_blank"><img src={github} height={50}></img></a>
+                {/* <a href="https://github.com/ol1oly/GDM-team7" target="_blank"><img src={github} height={50}></img></a> */}
             </div>
         </div>
     );

@@ -15,7 +15,7 @@ function ArtContent(){
             <h1>Digital Art!</h1>
             <div className='text-box'>
                 <p>A buncha random stuff. Click to enlarge. Check out my instagram for more!</p>
-                <a href="https://www.instagram.com/_orianart/" target="_blank"><img src={insta} height={50}></img></a>
+                <a href="https://www.instagram.com/_orianart/" target="_blank" rel="noopener noreferrer"><img src={insta} height={50}></img></a>
             </div>
 
             <div className="photo-album">

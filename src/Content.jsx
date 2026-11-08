@@ -12,11 +12,11 @@ function Content(){
                     <h1>Hello!!!! Welcome to my website!! 
                     </h1>
                     <h4 className="intro-desc"> <p>This is basically meant to be a portfolio/collection of some of the fun stuff ive created. Have fun looking around! Go ham!</p>
-                        {/* <p>My links: */}
+                        <p><u>Links:</u></p>
                             <a href="https://www.instagram.com/_orianart/" target="_blank"><img src={insta} height={50}></img></a>
-                            <a href="hhttps://orianas.itch.io/" target="_blank"><img src={itch} height={50}></img></a>
+                            <a href="https://orianas.itch.io/" target="_blank"><img src={itch} height={50}></img></a>
                             <a href="https://github.com/orianasion" target="_blank"><img src={github} height={50}></img></a>
-                        {/* </p> */}
+                        
                     </h4>
                 </div>
 
