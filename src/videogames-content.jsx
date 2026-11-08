@@ -19,7 +19,15 @@ import FishGame4 from './assets/FISH GAME/4.png';
 import FishGame5 from './assets/FISH GAME/5.png';
 import FishGame6 from './assets/FISH GAME/6.png';
 
-function VidoegamesContent(){
+// import * as React from "react";
+
+// import Lightbox from "yet-another-react-lightbox";
+// import "yet-another-react-lightbox/styles.css";
+
+// import { RowsPhotoAlbum } from "react-photo-album";
+// import "react-photo-album/rows.css";
+
+function VideoGamesContent(){
     return(
         <div className="display">
             <h1 id='dinerTime'>Diner Time!</h1>
@@ -80,4 +88,4 @@ function VidoegamesContent(){
 
 }
 
-export default VidoegamesContent
+export default VideoGamesContent

@@ -667,6 +667,11 @@ div.display > h1 {
   border-radius: 15px;
 }
 
+div.photo-album {
+  margin: 1em;
+  padding: 1em;
+}
+
 img.eg-photo {
   /* height: 250px; */
   margin-bottom: 14px;
