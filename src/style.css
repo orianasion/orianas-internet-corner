@@ -428,7 +428,8 @@ nav.home-nav > a {
 
 nav.model-nav {
   position: fixed;
-  left: 125px;
+  /* top: 170px; */
+  left: 115px;
   z-index: 0;
 }
 
@@ -442,12 +443,13 @@ nav.model-nav > ul > li {
 
 nav.model-nav > ul > li a{
   display: block;
-  width: 150px;
+  width: 170px;
   list-style-type: none;
   border: 3.2px solid #ac0050;
   border-radius: 10px;
+  border-right: 20px solid #ff73b4;;
   padding: 8px;
-  margin: 2em;
+  margin: 1.5em;
   background-color: #ff7dba;
   
 }
@@ -491,7 +493,7 @@ main {
 
 .text-box {
   display: inline-block;
-  margin: 1.35em;
+  margin: 0 1.35em;
   padding: 1em;
   border: var(--border);
   border-radius: var(--round-borders);
@@ -674,14 +676,14 @@ div.photo-album {
 
 div.video-box {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin: 0 2em;
 }
 
-/* video {
-  
-} */
+video {
+  padding: 1em;
+}
 
 img.eg-photo {
   /* height: 250px; */

@@ -6,7 +6,6 @@ function Content(){
             <section>
                 <div className="intro-box">
                     <h1>Hello!!!! Welcome to my website!! 
-                        <p>**THIS WEBSITE IS NOT FINISHED BTW THE ART LINKS AND MMD LINKS ARENT WORKING**</p>
                     </h1>
                     <h4 className="intro-desc"> <p>This is basically meant to be a portfolio/collection of some of the fun stuff ive created. Have fun looking around! Go ham!</p></h4>
                 </div>

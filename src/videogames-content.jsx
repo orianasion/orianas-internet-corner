@@ -1,3 +1,17 @@
+import ShadowMagic1 from './assets/SHADEOFMAGIC/1.png';
+import ShadowMagic2 from './assets/SHADEOFMAGIC/2.png';
+import ShadowMagic3 from './assets/SHADEOFMAGIC/3.png';
+import ShadowMagic4 from './assets/SHADEOFMAGIC/4.png';
+import ShadowMagic5 from './assets/SHADEOFMAGIC/5.png';
+import ShadowMagic6 from './assets/SHADEOFMAGIC/6.png';
+
+import ctc1 from './assets/COLLECTTHECOSMOS/1.png';
+import ctc2 from './assets/COLLECTTHECOSMOS/2.png';
+import ctc3 from './assets/COLLECTTHECOSMOS/3.png';
+import ctc4 from './assets/COLLECTTHECOSMOS/4.png';
+import ctc5 from './assets/COLLECTTHECOSMOS/5.png';
+import ctc6 from './assets/COLLECTTHECOSMOS/6.png';
+
 import DinerTime1 from './assets/DINER TIME/1.png';
 import DinerTime2 from './assets/DINER TIME/2.png';
 import DinerTime3 from './assets/DINER TIME/3.png';
@@ -30,6 +44,41 @@ import FishGame6 from './assets/FISH GAME/6.png';
 function VideoGamesContent(){
     return(
         <div className="display">
+            <h1 id='shadeOfMagic'>Shade Of Magic</h1>
+            <div className='display-photos'>
+                <img className='eg-photo' src={ShadowMagic1}></img>
+                <img className='eg-photo' src={ShadowMagic2}></img>
+                <img className='eg-photo' src={ShadowMagic3}></img>
+                <img className='eg-photo' src={ShadowMagic4}></img>
+                <img className='eg-photo' src={ShadowMagic5}></img>
+                <img className='eg-photo' src={ShadowMagic6}></img>
+            </div>
+            <div className='text-box'>
+                <p>A mysterious shadow fairy is stuck in your room! Move the objects around and manipulate the shadows to create a path to help her escape. A twist on the classic platformer genre.</p>
+                <p>Made for GameDev McGill's October-November monthly jam with two other teammates. I created all of the furniture in 3D using Blender, and I also programmed the camera movement and the win condition, and integrated the fairy's walk, idle and jump animations that were created by my teammate.</p>
+                    <ul>
+                        <li><a href="https://orianas.itch.io/shade-of-magic" target="_blank">Itch.io</a></li>
+                        <li><a href="https://github.com/orianasion/Monthly-Jam" target="_blank">Github</a></li>
+                    </ul>
+            </div>
+
+            <h1 id='collectTheCosmos'>Collect The Cosmos</h1>
+            <div className='display-photos'>
+                <img className='eg-photo' src={ctc1}></img>
+                <img className='eg-photo' src={ctc2}></img>
+                <img className='eg-photo' src={ctc3}></img>
+                <img className='eg-photo' src={ctc4}></img>
+                <img className='eg-photo' src={ctc5}></img>
+                <img className='eg-photo' src={ctc6}></img>
+            </div>
+            <div className='text-box'>
+                <p>You are the sun, and you have 100 million years to create your solar system! That may seem like a lot of time, but time flies fast for a massive sphere of hot plasma. Collect as many planets, asteroids and other fun space objects as you can before the timer runs out!</p>
+                <p>Made in 48hrs for Cosmic Jam 2026 in a team of three people. I contributed to creating 2D sprites and animations for the collectible objects. I programmed random asteroid spawning logic, target pursuit and collision-triggered destruction sequences for the collectibles.</p>
+                    <ul>
+                        <li><a href="https://mooncat225.itch.io/collect-the-cosmos" target="_blank">Itch.io</a></li>
+                        <li><a href="https://github.com/Akutana/CosmicJam" target="_blank">Github</a></li>
+                    </ul>
+            </div>
             <h1 id='dinerTime'>Diner Time!</h1>
             <div className='display-photos'>
                 <img className='eg-photo' src={DinerTime1}></img>
